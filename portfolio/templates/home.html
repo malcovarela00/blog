@@ -11,8 +11,8 @@
   </div>
 
   <div class="col-md-8 my-auto p-4">
-    <h1>I am <strong>Ryan Ray</strong></h1>
-    <h3>I'm a Python FullStack Developer</h3>
+    <h1>Soy <strong>Malco Varela</strong></h1>
+    <h3>Soy un nerd</h3>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis tempora perspiciatis molestias iusto ducimus
       soluta mollitia ratione, fuga praesentium, reiciendis minima! Facere, veniam! Omnis, quod molestias quo fugit enim
       vero vitae, cumque tenetur at, impedit provident dicta laudantium quia facilis consequuntur blanditiis iste
@@ -28,8 +28,8 @@
 <!-- Porfolio Section -->
 <div class="row my-4 text-center">
 
-  <h3>My Projects</h3>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, aperiam?</p>
+  <h3>Mis Projectos</h3>
+  <p>Algunos enlaces sobre mí</p>
 
   {% for project in projects %}
   <div class="col-md-4 p-4">
@@ -42,9 +42,8 @@
         <p>{{ project.description }}</p>
 
         {% if project.url %}
-        <a href="{{project.url}}" class="btn btn-light rounded-0 btn-sm" target="__blank" rel="noreferrer">Visit the
-          Project</a>
-        {% endif %}
+  <a href="{{project.url}}" class="btn" target="__blank" rel="noreferrer">Visitar</a>
+{% endif %}
       </div>
     </div>
   </div>

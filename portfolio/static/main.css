@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
 body {
+  font-family: 'JetBrains Mono', monospace;
   background: #090909;
 }
 
@@ -9,4 +12,23 @@ body {
 .card-project:hover {
   border: 1px solid #eee;
   cursor: pointer;
+}
+
+.btn {
+  background-color: #24292e;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-family: 'JetBrains Mono', monospace;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #444c56;
 }
